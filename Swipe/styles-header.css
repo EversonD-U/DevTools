@@ -1,0 +1,266 @@
+body {
+  margin-top: 0px;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--text-dark);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+}
+
+
+.navbar {
+  height: 60px;
+  width: 1144px;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 64px;
+  box-sizing: border-box;
+}
+
+.navbar img {
+  height: 35px;
+  margin-left: 10px;
+}
+
+.navbar-button-right {
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  background: rgba(250, 250, 250, 0.25);
+  border: none;
+  letter-spacing: 1.25px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 14px;
+  padding-left: 0;
+  font-weight: 500;
+}
+
+.menu li a {
+  margin: 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menu li a:hover{
+  text-decoration: underline;
+}
+
+.front {
+  display: flex;
+  justify-content: center;
+  width: 1144px;
+  margin-top: 50px;
+}
+
+.front-text {
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+
+.div-col-left {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.div-col-right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-left: 16px;
+}
+
+.phone-front {
+  height: 628px;
+  transform: translate(32px, -32px);
+  margin-top: -40px;
+}
+
+.front-tittle {
+  font-weight: 600;
+  font-size: 92px;
+  margin: 0px;
+  letter-spacing: -1px;
+  line-height: 108px;
+  font-family: "Anek Telugu", sans-serif;
+}
+
+
+.buttons-section{
+  display: flex;
+}
+
+
+.button-container{
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #0a2540;
+  border: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button-container a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.button-container:hover {
+  background-color: rgba(109, 122, 136, 0.822);
+  cursor: pointer;
+
+}
+
+.button-container img{
+  transition: 0.3s;
+}
+
+.button-container:hover img{
+  transform: translateX(10px);
+}
+
+
+.button-hero-sales {
+  color:  #7000ff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button-hero-sales:hover{
+  opacity: 0.75;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-hero-sales img{
+  position: absolute;
+  transition: 0.3s;
+  right: -10px;
+}
+
+.button-hero-sales:hover img{
+  right: -20px;
+}
+
+.button-container:hover img{
+  right: -10px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Reglas de estilo para móviles con ancho máximo de 767px */
+  /* Por ejemplo: */
+  body {
+    font-size: 14px;
+  }
+
+  .front {
+    width: 50%;
+    margin-left: 0px;
+  }
+
+  .front-tittle {
+    font-size: 48px; /* Modifica el tamaño del título según tus preferencias */
+    width: 50%;
+    margin-left: 0px;
+  }
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+@media only screen and (max-width: 768px) {
+  /* Reglas de estilo para tabletas y pantallas con ancho entre 768px y 1024px */
+  /* Por ejemplo: */
+  .navbar{
+    display: none;
+  }
+
+
+
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para pantallas de escritorio */
+@media only screen and (min-width: 1025px) {
+  /* Reglas de estilo para pantallas de escritorio con ancho mínimo de 1025px */
+  /* Por ejemplo: */
+  body {
+    font-size: 18px;
+  }
+}
+
+.canvas {
+  width: 200%;
+  height: 970px;
+  transform: rotate(-10deg);
+  position: absolute;
+  top: -600px;
+  left: -50%;
+  z-index: -1;
+  background: linear-gradient(-10deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-3), var(--gradient-color-4));
+  --gradient-color-1: #ef008f;
+  --gradient-color-2: #6ec3f4;
+  --gradient-color-3: #7038ff;
+  --gradient-color-4: #ffba27;
+}
+
+.brands-grid{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 32px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.brands-grid img{
+  height: 60px;
+  width: 200px;
+  place-self: center;
+}
