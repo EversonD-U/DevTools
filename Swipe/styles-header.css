@@ -486,7 +486,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1140px;
 }
 
 
@@ -571,6 +571,50 @@ p {
 .secondary-text{
   font-size: 14px;
   line-height: 18px;
-  color: #adbdcc;
+  color: #000000;
   letter-spacing: 0.25px;
 }
+
+.why-swipe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 192px 0px 192px 0px;
+}
+
+.seccion-container {
+  width: 100%;
+  max-width: 1144px;
+}
+
+.subtitulo{
+  color: #6962f7;;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.card h3 {
+  font-family: "Anek Telugu", sans-serif ;
+  font-weight: 500;
+  font-size: 22px;
+  margin:0;
+  width: 100%;
+}
+
+
+.why-swipe .card-container .card {
+  width: 25%;
+  padding: 0 8px 0 0;
+  margin: 0 8px 0 0;
+  box-sizing: border-box;
+}
+
+.card .icon {
+  height: 50px;
+  margin: 0 0 8px 0;
+}
+
+
+
