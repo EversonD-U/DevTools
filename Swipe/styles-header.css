@@ -878,3 +878,72 @@ p {
 .button-test1:hover img{
   right: -10px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color:  #f7f9fc;;
+    padding: 64px 0;
+    width: 100%;
+}
+
+.footer .section-container {
+  display: flex;
+}
+
+.section-container {
+  width: 100%;
+  max-width: 1144px;
+}
+
+.col {
+  width: 25%;
+}
+
+
+.footer .col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.footer .col ul li {
+  margin: 16px 0;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.footer .col img {
+  margin: 10px 0;
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
+.footer h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+
+
+.footer .icon-link {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+
+.footer .icon-link img {
+  width: 24px;
+}
+
+.footer .col a {
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+}
