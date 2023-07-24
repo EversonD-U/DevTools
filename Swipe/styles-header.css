@@ -564,9 +564,6 @@ p {
   right: -20px;
 }
 
-.button-test:hover img{
-  right: -10px;
-}
 
 .secondary-text{
   font-size: 14px;
@@ -574,3 +571,4 @@ p {
   color: #adbdcc;
   letter-spacing: 0.25px;
 }
+
