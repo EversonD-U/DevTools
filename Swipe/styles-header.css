@@ -294,6 +294,7 @@ p {
 } 
 
 .tittle-big{
+  color: black;
   width: 571px;
   font-weight: 600;
   font-size: 40px;
@@ -653,7 +654,7 @@ p {
 
 .globe-seccion .card-container {
   display: flex;
-  margin: 128px 70px;
+  margin: 60px 70px;
 }
 
 .globe-seccion .card-container .card h3 {
@@ -694,5 +695,186 @@ p {
     color: #00d4ff;;
     font-weight: 500;
     transition: color 0.25s ease;
+}
 
+
+.events-section{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.events-section::before {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+
+.seccion-container-2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+
+.button-test {
+  color:  #00d4ff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+.negro {
+  color: black;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 16 0;
+}
+
+.seccion-container-3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 128px 70px;
+}
+
+.shadow{
+  width: 540px;
+  height: 446px;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+
+
+.button-container-sec4{
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #6962f7;;
+  border: none;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button-container-sec4 a{
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.button-container-sec4:hover {
+  background-color: #0a2540;
+  cursor: pointer;
+
+}
+
+.button-container-sec4 img{
+  transition: 0.25s;
+}
+
+.button-container-sec4:hover img{
+  transform: translateX(10px);
+}
+
+.get-started{
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+    align-items: center;
+}
+
+
+.seccion-container4{
+  width: 100%;
+  max-width: 1144px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.div-col-right-2 {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 0 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+
+.get-started .col-right .card {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 8px 0 0;
+  margin: 8px 0 0;
+}
+
+
+.button-test1 {
+  color:  #7000ff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.button-test1:hover{
+  opacity: 0.75;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-test1 img{
+  position: absolute;
+  transition: 0.3s;
+  right: -10px;
+}
+
+.button-test1:hover img{
+  right: -20px;
+}
+
+.button-test1:hover img{
+  right: -10px;
 }
